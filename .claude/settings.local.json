@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cd \"C:\\\\Users\\\\JhoanBorges\\\\Documents\\\\americo-de-anda\" && npm run build 2>&1)"
+      "Bash(cd \"C:\\\\Users\\\\JhoanBorges\\\\Documents\\\\americo-de-anda\" && npm run build 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\JhoanBorges\\\\Documents\\\\americo-de-anda\" && npx astro add react -y 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\JhoanBorges\\\\Documents\\\\americo-de-anda\" && npm install tailwindcss @tailwindcss/vite 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\JhoanBorges\\\\Documents\\\\americo-de-anda\" && npm install class-variance-authority clsx tailwind-merge lucide-react 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\JhoanBorges\\\\Documents\\\\americo-de-anda\" && npx shadcn@latest init -d 2>&1)"
     ]
   }
 }
